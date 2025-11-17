@@ -1,4 +1,5 @@
 # Next.js Project Setup and Basics
 
-This project is a simple Next.js application using TypeScript and Tailwind CSS.
-It demonstrates basic routing, reusable components, API data fetching, and layout structure.
+This repository contains the setup and basic configuration for a Next.js project
+using TypeScript and Tailwind CSS. It is part of the ALX project "SoloForge:
+Mastering Project Autonomy".
