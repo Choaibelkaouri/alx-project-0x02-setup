@@ -1,10 +1,10 @@
 import React from "react";
-import { ButtonProps } from "@interfaces/index";
+import { type ButtonProps } from "@/interfaces";
 
 const sizeClasses: Record<NonNullable<ButtonProps["size"]>, string> = {
   small: "px-3 py-1 text-xs",
   medium: "px-4 py-2 text-sm",
-  large: "px-6 py-3 text-base"
+  large: "px-6 py-3 text-base",
 };
 
 const Button: React.FC<ButtonProps> = ({
@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({
   size = "medium",
   shape = "rounded-md",
   type = "button",
-  onClick
+  onClick,
 }) => {
   return (
     <button
